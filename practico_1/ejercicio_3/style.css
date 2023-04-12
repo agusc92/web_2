@@ -1,0 +1,27 @@
+main{
+    display: flex;
+    justify-content: center;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    border: 2px solid black;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.formulario>div{
+    display: flex;
+    justify-content:space-between;
+    width: 70%;
+    margin-bottom: 10px;
+}
+.sexo{
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+}
+.intereses>div{
+    display: flex;
+    justify-content: space-between;
+}

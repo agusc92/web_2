@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <h1>recepcion de datos</h1>
+    </header>
+    <main>
+        
+        <form action="index.php" method="GET" class="formulario">
+            <h2>Formulario</h2>
+            <div>
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre">
+            </div>
+            <div>
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido">
+            </div>
+            <div>
+                <label for="edad">Edad:</label>
+                <input type="number" name="edad">
+            </div>
+            <div>
+                <label for="sexo">sexo</label>
+                <div class="sexo">
+                    <div>
+                        <label for="masculino">M</label>
+                        <input type="radio" name="sexo" value="masculino" id="hombre">
+                    </div>
+                    <div>
+                        <label for="femenino">F</label>
+                        <input type="radio" name="sexo" id="femenino" value="femenino">
+                    </div>
+                </div>
+                
+            </div>
+            <div>
+                <label for="pais">pais:</label>
+                <select name="pais" id="pais">
+                    <option value="Argentina">Argentina</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="Chile">Chile</option>
+                    <option value="provincia revelde">provincia revelde</option>
+                </select>
+            </div>
+            <div>
+                <label for="intereses">intereses</label>
+                <div>
+                    <div class="intereses">
+                        <div>
+                            <label for="videojuegos">videojuegos</label>
+                            <input type="checkbox" id="videojuegos" name="videojuegos" value="videojuegos">
+                        </div>
+                        <div>
+                            <label for="futbol">futbol</label>
+                            <input type="checkbox" name="futbol" id="futbol" value="futbol">
+                        </div>
+                        <div>
+                            <label for="musica">musica</label>
+                            <input type="checkbox" name="musica" id="musica" value="musica">
+                        </div>
+                        <div>
+                            <label for="ciencias">ciencias</label>
+                            <input type="checkbox" name="ciencias" id="ciencias" value="ciencias">
+                        </div>
+                        <div>
+                            <label for="autos">autos</label>
+                            <input type="checkbox" name="autos" id="autos" value="autos">
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <button type="submit">enviar</button>
+        </form>
+    </main>
+</body>
+</html>

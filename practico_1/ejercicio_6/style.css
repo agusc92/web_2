@@ -1,0 +1,32 @@
+.titulo{
+    font-family: 'Shadows Into Light', cursive;
+    background-color: rgb(236, 236, 94) ;
+    height: 60px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 800;
+}
+header{
+    margin-bottom: 30px;
+}
+.formulario{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    margin-top: 10px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+table , td , tr{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.thead , .columna-uno{
+    background-color: rgb(236, 236, 94);
+}
